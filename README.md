@@ -1,0 +1,2 @@
+# TimelineLoop
+Timelineの任意位置でループさせるための拡張
