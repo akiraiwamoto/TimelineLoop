@@ -51,7 +51,6 @@ public class LoopClip : PlayableAsset, ITimelineClipAsset
 	public override Playable CreatePlayable(PlayableGraph graph, GameObject owner)
     {
         var playable = ScriptPlayable<LoopBehaviour>.Create(graph);
-        LoopBehaviour behaviour = playable.GetBehaviour();
 
         return playable;
     }
